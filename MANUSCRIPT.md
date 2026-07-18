@@ -111,7 +111,7 @@ This spectral regularizer enforces alignment with the principal eigenvectors of 
 
 ### 3.3 Strict Convex Optimization for Adaptive Weights
 
-To aggregate the dimensions, we use a weighted geometric mean. The weights $\mathbf{w}$ are learned adaptively via a max-margin program. Let $\mathcal{M}_{safe}$ and $\mathcal{M}_{unsafe}$ be sets of historically safe and unsafe models derived from the meta-dataset. A model is labeled "safe" if its retrospective performance generalized to prospective cohorts without causing disparate impact; otherwise, it is labeled "unsafe." In the absence of ground-truth labels, unsupervised clustering (e.g., Gaussian Mixture Models on $\mathbf{V}$) serves as an alternative.
+To aggregate the dimensions, we use a weighted geometric mean. The weights $\mathbf{w}$ are learned adaptively via a max-margin program. Let $\mathcal{M}_{safe}$ and $\mathcal{M}_{unsafe}$ be sets of simulated safe and unsafe models derived from the demonstration meta-dataset. A model is labeled "safe" if its retrospective performance generalized to prospective cohorts without causing disparate impact; otherwise, it is labeled "unsafe." In the absence of ground-truth labels, unsupervised clustering (e.g., Gaussian Mixture Models on $\mathbf{V}$) serves as an alternative.
 
 We apply a logarithmic transformation to formulate a strictly concave objective function $\mathcal{J}(\mathbf{w})$:
 
@@ -186,7 +186,7 @@ CRAI-G offers a comprehensive mathematical framework for evaluating the multidim
 
 ## 8. Code and Data Availability
 
-To ensure full reproducibility, the Python implementation of the CRAI-G framework, the Graphical Lasso graph learning module, the KKT optimization solver, and the complete simulation pipeline (including bootstrap CI and Monte Carlo modules) have been prepared for open-source release. The repository is publicly available at **https://github.com/bsalshreef/CRAI-G** and will be archived on Zenodo with a permanent DOI upon acceptance. The repository includes all source code, the demonstration meta-dataset, the full simulation pipeline (bootstrap CI and Monte Carlo modules), unit tests covering all three formal theorems, and pre-computed results. The meta-dataset documentation (Supplementary Table S1) and the reproducibility checklist (Supplementary Document S2) are provided as supplementary materials.
+To ensure full reproducibility, the Python implementation of the CRAI-G framework, the Graphical Lasso graph learning module, the KKT optimization solver, and the complete simulation pipeline (including bootstrap CI and Monte Carlo modules) are fully open-source. The repository is publicly available at **https://github.com/bsalshreef/CRAI-G** and will be archived on Zenodo with a permanent DOI upon acceptance. The repository includes all source code, the demonstration meta-dataset, the full simulation pipeline (bootstrap CI and Monte Carlo modules), unit tests covering all three formal theorems, and pre-computed results. The meta-dataset documentation (Supplementary Table S1) and the reproducibility checklist (Supplementary Document S2) are provided as supplementary materials.
 
 ---
 
