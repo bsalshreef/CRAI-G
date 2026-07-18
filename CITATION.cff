@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "CRAI-G: Clinical Readiness of AI Index (Graph-Regularized)"
+abstract: >
+  CRAI-G is a mathematically rigorous framework for evaluating the multidimensional
+  clinical readiness of medical AI models, integrating spectral graph theory,
+  convex optimization, and information entropy.
+version: "1.0.0"
+date-released: "2025-01-01"
+license: MIT
+repository-code: "https://github.com/YOUR_USERNAME/CRAI-G"
+keywords:
+  - medical AI
+  - clinical readiness
+  - graph Laplacian
+  - convex optimization
+  - fairness
+  - calibration
+  - uncertainty quantification
+references:
+  - type: article
+    title: >
+      A Unified Mathematical Theory for the Clinical Readiness of Medical
+      Artificial Intelligence: The CRAI-G Framework
+    journal: Under Review
+    year: 2025
