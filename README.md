@@ -2,6 +2,7 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21434837.svg)](https://doi.org/10.5281/zenodo.21434837)
 [![Tests](https://github.com/bsalshreef/CRAI-G/actions/workflows/tests.yml/badge.svg)](https://github.com/bsalshreef/CRAI-G/actions)
 
 **CRAI-G** is a mathematically rigorous framework for evaluating the multidimensional clinical readiness of medical AI models. It integrates five performance pillars — discrimination, calibration, robustness, fairness, and clinical utility — into a single, formally guaranteed composite score using spectral graph theory, convex optimization, and information entropy.

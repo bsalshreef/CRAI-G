@@ -186,7 +186,7 @@ CRAI-G offers a comprehensive mathematical framework for evaluating the multidim
 
 ## 8. Code and Data Availability
 
-To ensure full reproducibility, the Python implementation of the CRAI-G framework, the Graphical Lasso graph learning module, the KKT optimization solver, and the complete simulation pipeline (including bootstrap CI and Monte Carlo modules) are fully open-source. The repository is publicly available at **https://github.com/bsalshreef/CRAI-G** and will be archived on Zenodo with a permanent DOI upon acceptance. The repository includes all source code, the demonstration meta-dataset, the full simulation pipeline (bootstrap CI and Monte Carlo modules), unit tests covering all three formal theorems, and pre-computed results. The meta-dataset documentation (Supplementary Table S1) and the reproducibility checklist (Supplementary Document S2) are provided as supplementary materials.
+To ensure full reproducibility, the Python implementation of the CRAI-G framework, the Graphical Lasso graph learning module, the KKT optimization solver, and the complete simulation pipeline (including bootstrap CI and Monte Carlo modules) are fully open-source. The repository is publicly available at **https://github.com/bsalshreef/CRAI-G** and is permanently archived on Zenodo (**DOI: 10.5281/zenodo.21434837**). The repository includes all source code, the demonstration meta-dataset, the full simulation pipeline (bootstrap CI and Monte Carlo modules), unit tests covering all three formal theorems, and pre-computed results. The meta-dataset documentation (Supplementary Table S1) and the reproducibility checklist (Supplementary Document S2) are provided as supplementary materials.
 
 ---
 
